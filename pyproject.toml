@@ -23,3 +23,7 @@ build-backend = "flit_core.buildapi"
 Homepage = "https://github.com/developmentforpeople/dfp_external_storage"
 Repository = "https://github.com/developmentforpeople/dfp_external_storage.git"
 "Bug Reports" = "https://github.com/developmentforpeople/dfp_external_storage/issues"
+
+[tool.bench.frappe-dependencies]
+frappe = ">=16.0.0,<17.0.0"
+
